@@ -1,0 +1,133 @@
+
+        #a1 {
+            font-size: 40px;
+            font-family: ".Pingfang SC", "锐字巅峰粗黑简1.0";
+            padding: 9px 9px;
+            position: relative;
+            left: 30px;
+            float: left
+        }
+
+        #ul1 > li {
+
+            float: right;
+            font-size: 25px;
+            padding: 10px 20px 20px 10px;
+            border-right-style:solid;
+
+        }
+
+        #d1 {
+            background-color: #6DDCBD;
+
+            margin: 20px 20px 20px 0px
+        }
+        #d1:after {
+            content: "";
+            clear: left;
+            display: block;
+
+        }
+
+        .leftblock {
+
+            background-color: burlywood;
+            height: 820px;
+            width: 20%;
+            float: left;
+        }
+
+        #q1 {
+            font-weight:900;
+            font-family: ".Pingfang SC", "CommercialPi BT";
+            text-align: center;
+        }
+
+        .header {
+            height: 150px;
+            width: 150px;
+            margin: 20px auto;
+            border: #6DDCBD 2px dotted;
+            border-radius: 100%;
+            overflow: hidden
+        }
+
+        img {
+            height: 100%;
+        }
+
+        .right {
+            border-left: #cc3300 3px solid;
+            font-size: 30px;
+            font-family: "Adobe 黑体 Std R";
+            text-align: left;
+            margin: 0px 20px 0px 20px;
+            float: right;
+            height: 40px;
+            width: 75%;
+            background-color: #c4dce8;
+            padding: 10px 0 0 10px;
+        }
+        #wenzhang{display: inline;
+        }
+
+        #data{
+            font-size: 20px;
+            float: right;
+            padding:auto 20px ;
+        }
+        #neirong{
+            margin: 0px 20px 0px 20px;
+            float: right;
+            height: 150px;
+            width: 75%;
+            background-color: #c4dce8;
+            padding: 10px 0 0 10px;;
+        }
+        #biaoqian{
+            margin: 0px 20px 20px 20px;
+            float: right;
+            height: 30px;
+            width: 75%;
+            background-color: #c4dce8;
+            padding: 10px 10px 0 0px;;
+            border-top: #003366 solid 1px;
+            text-align: right;
+
+        }
+
+        .info {
+            font-size: 20px;
+            font-family: 翩翩体-简;
+            margin: 10px 15px;
+        }
+
+        .link {
+            margin: 40px 20px;
+            border: tomato ridge 4px;
+            text-align: center;
+        }
+
+        /* 未被访问的链接 */
+        a:visited {
+            color: #003366;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #ul2 > li {
+            font-size: large;
+            font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+            color: tomato;
+        }
+
+        #ul2 {
+            margin: 0px 10px
+        }
+
+        .hw {
+
+            padding: 0px 20px
+        }

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.leftblock{
+    height: 100%;
+    width: 20%;
+    background: #747755;
+     position: fixed;
+    left: 0;
+    top: 0;
+     float: left;
+
+}
+.header{
+    height: 100px;
+    width: 100px;
+    border: #747755 dashed 3px;
+    border-radius: 100%;
+    margin: 0 auto ;
+    margin-top: 20px;
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+
+}
+.name{
+    border: #6DDCBD 2px solid;
+    margin: 40px 20px;
+    font-family: ".Pingfang SC", "CommercialPi BT";
+    font-size: 20px;
+    color: #6DDCBD;
+    text-align: center;
+}
+.intro{
+    margin: 20px auto;
+    font-size: 15px;
+    font-family: 翩翩体-简;
+    text-align: center;
+}
+.list{
+    margin: 20px auto;
+    text-align: center;
+}
+.list2{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.right{height: 100%;
+    width: 80%;
+    float: right;
+    background: #79aec8;
+}
+
+.tou{margin-top: 30px;
+    margin-left: 30px;
+    border-left: #993300 2px solid;
+    background: white;
+
+}
+.haiyan{font-size: 30px;
+    font-family: "Adobe 黑体 Std R";
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+}
+.data{
+    float: right;
+    font-size: 20px;
+    font-family: ".Pingfang SC", "CommercialPi BT";
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.info{
+    text-indent: 30px;
+    margin-left: 30px;
+    background: white;
+    height: 100px;
+    font-size: 20px;
+    font-family: ".Pingfang SC", "CommercialPi BT";
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.tags{
+    margin-left: 30px;
+    background: white;
+    height: 50px;
+    font-size: 15px;
+    font-family: ".Pingfang SC", "CommercialPi BT";
+
+
+
+}
+.zt{
+    padding: auto 0;
+    border-top: #333333 1px solid;
+    margin: 0 20px;
+}

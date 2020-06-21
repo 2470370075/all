@@ -1,0 +1,12 @@
+import socket
+sk=socket.socket()
+sk.bind(('127.0.0.1',8080))
+sk.listen(5)
+print(1)
+conn,_=sk.accept()
+print(2)
+conn.send('hello'.encode('utf-8'))
+data=conn.recv(1024)
+print(data.decode('utf-8'))
+conn.close()
+sk.close()

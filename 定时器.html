@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12121</title>
+
+
+</head>
+<body>
+
+<input id='d1' type="text" value=''>
+<input type="button" id="d2" value="开始">
+<input type="button" id='d3' value="停止" >
+ <script>
+
+     var t=undefined;
+     function foo() {
+          var d=new Date()
+
+          var d1ele=document.getElementById('d1')
+          d1ele.value=d.toLocaleString()
+     }
+
+
+     var d2ele=document.getElementById('d2')
+     d2ele.onclick=function () {
+        foo();
+        if (t===undefined){
+            t=setInterval(foo,1000)
+        }
+
+     }
+
+     var d3ele=document.getElementById('d3')
+     d3ele.onclick=function  (){
+         clearInterval(t)
+        t=undefined
+     }
+ </script>
+
+</body>
+</html>
+

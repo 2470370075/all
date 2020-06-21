@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菜单一</title>
+
+
+    <style>
+        body {
+        color: white;
+
+       }
+        a{text-decoration:none;
+
+        }
+        a:visited{
+            color: #f5dd5d;
+        }
+        a:hover{
+            color: #6DDCBD;
+        }
+
+
+        #d1 {width: 200px;
+            height: 1000px;
+            background-color: #222222;
+        }
+        .c1{
+            background-color: #222222;
+            margin-top:10px ;
+            text-align:center;
+            ;
+        }
+
+        ul {background-color: #777777;
+            margin: 0px 0px;
+            padding: 0px;
+            text-align: left;
+        }
+        .c2{
+            display: none;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div id="d1">
+    <div class="c1">菜单一
+    <div class="c2">
+        <ul>
+            <li><a href="">aaa</a> </li>
+            <li><a href="">bbb</a></li>
+            <li><a href="">ccc</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="c1" >菜单二
+    <div class="c2">
+        <ul>
+            <li><a href="">aaa</a> </li>
+            <li><a href="">bbb</a></li>
+            <li><a href="">ccc</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="c1">菜单三
+    <div class="c2">
+        <ul>
+            <li><a href="">aaa</a> </li>
+            <li><a href="">bbb</a></li>
+            <li><a href="">ccc</a></li>
+        </ul>
+    </div>
+    </div>
+
+</div>
+
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+    $('.c1').click(function () {
+        $(this).children().toggleClass('c2')
+        $(this).siblings().children().addClass('c2')
+    })
+</script>
+
+
+
+
+</body>
+</html>

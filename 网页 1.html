@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wangye</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .myinfo {
+            font-size: 50px;
+        }
+
+        .mynav {
+            margin: 0;
+            border-radius: 0;
+        }
+
+        #d1 {
+            font-size: 20px;
+            color: white;
+        }
+
+        .c1 {
+            background-color: #f5f5f5;
+        }
+
+        .c11 {
+            height: 120px;
+        }
+
+        .c12 {
+            text-align: center;
+            height: 100px;
+            padding: 20px 0;
+        }
+
+        .c11 {
+
+        }
+
+        .c111 {
+            text-align: center;
+            padding: 50px 0;
+            margin: 0;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        .my-line {
+
+            border-top: 1px #222222 solid;
+            width: 60px;
+            margin: auto;
+            height: 1px;
+        }
+
+        .c21 {
+            padding: 9px;
+            border: #777777 solid 1px;
+            margin: 80px 80px;
+
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .c22 {
+            padding-top: 40px;
+            margin-left: 0;
+            text-align: center;
+            margin-top: 80px;
+
+        }
+
+        .c3 {
+            background-color: #f5f5f5;
+        }
+
+        .c31 {
+            background-color: white;
+            padding: 9px;
+            border: #777777 solid 1px;
+            margin: 80px 80px;
+
+        }
+        .v4{
+            margin: 60px 200px;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-inverse mynav">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id='d1' class="navbar-brand" href="#">WHAT THE FUCK</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="row">
+                <div class="col-md-1 "></div>
+                <ul class="nav navbar-nav ">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <ul class="nav navbar-nav navbar-right col-md-3 ">
+                    <li><a href="#">好好学习</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">联系我们<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">TOM</a></li>
+                            <li><a href="#">LIHUA</a></li>
+                            <li><a href="#">xiaoming</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">wjx</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="banner_1.jpg" alt="...">
+            <div class="carousel-caption myinfo">
+                第一章
+            </div>
+        </div>
+        <div class="item">
+            <img src="banner_2.jpg" alt="...">
+            <div class="carousel-caption myinfo">
+                第二章
+            </div>
+        </div>
+        <div class="item">
+            <img src="banner_3.jpg" alt="...">
+            <div class="carousel-caption myinfo">
+                第三章
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<div class="c1">
+    <div class="c11">
+        <h1 class="c111">Bootstrap能做什么？</h1>
+    </div>
+    <div class="my-line"></div>
+    <div class="c12">
+        <p>网站首页、网站后台、手机页面。。。</p>
+    </div>
+
+</div>
+
+
+<div class="c2 row">
+    <div class="col-md-5 col-md-offset-1">
+        <div class="c21">
+            <img src="Bootstrap_d1.png" alt="">
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="c22">
+            <h1>
+                使用Bootstrap搭建的<br>登陆页面
+            </h1>
+            <div class="my-line"></div>
+            <h4>使用表单、按钮组件搭建</h4>
+        </div>
+    </div>
+</div>
+
+<div class="c3 row">
+
+    <div class="col-md-5 col-md-offset-1">
+        <div class="c22">
+            <h1>
+                使用Bootstrap搭建的<br>信息采集单
+            </h1>
+            <div class="my-line"></div>
+            <h4>使用表单、页头、面板组件、进度条等组件搭建</h4>
+        </div>
+    </div>
+    <div class="col-md-5 ">
+        <div class=" c31">
+            <img src="Bootstrap_d2.png" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="row v4">
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="Bootstrap_i1.png" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="Bootstrap_i2.png" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="Bootstrap_i3.png" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="Bootstrap_i4.png" alt="...">
+        </a>
+    </div>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

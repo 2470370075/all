@@ -1,0 +1,17 @@
+响应式布局：
+ @media (min-weith:998px){
+	CSS 样式
+}
+
+数据库：
+	锁：
+		begin;
+		select * from table for updata;
+		commit;
+	innodb支持表锁和行锁，mysaim只支持表锁
+	pymysql中：
+		cursor（select * from table for updata;）
+	django中：
+		with trancation.automic（）
+			user.object.all().for_pdate()
+	innodb支持事务，innodb不支持

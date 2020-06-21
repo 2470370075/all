@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单联动</title>
+</head>
+<body>
+
+<select id="d0">
+    <option id="d1" value=1>--请选择--</option>
+    <option id="d2" value=2>北京</option>
+    <option id="d3" value=3>上海</option>
+</select>
+
+<select id="d4">
+
+</select>
+
+<script>
+    var d0ele=document.getElementById('d0')
+    var d1ele=document.getElementById('d1')
+    var d2ele=document.getElementById('d2')
+    var d3ele=document.getElementById('d3')
+    var d4ele=document.getElementById('d4')
+    console.log(d0ele.value)
+    d0ele.onchange=function () {
+
+         if (d0ele.value==2){
+         d4ele.innerhtml=''
+
+        d4ele.innerHTML="<option>海淀</option><option>朝阳</option>"
+
+
+
+    }
+     if (d0ele.value==3){
+         d4ele.innerHTML=''
+        d4ele.innerHTML="<option>浦东</option><option>闵行</option>"
+
+    }
+
+    }
+
+</script>
+</body>
+</html>
